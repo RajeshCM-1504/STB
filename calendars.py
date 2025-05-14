@@ -10,7 +10,7 @@ expectedList = [monthNumber, date, year]
 driver = webdriver.Chrome()
 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers")
 driver.implicitly_wait(5)
-
+print("OK")
 # Interacting with calendar
 driver.find_element(By.CSS_SELECTOR,".react-date-picker__inputGroup").click()
 driver.find_element(By.CSS_SELECTOR,".react-calendar__navigation__label").click();
